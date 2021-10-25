@@ -2,26 +2,26 @@
     {
         "id":"1",
         "description":"HYQ 80 cm (32 Inches) HD Smart LED TV",
-        "image":"https://github.com/Sridhar0435/hyq.github.io/assets/img/hyqimages/first.jpg"
+        "image":"./assets/img/hyqimages/first.jpg"
     },
     {
         "id":"2",
         "description":"HYQ 80 cm (32 Inches) HD Smart LED TV",
-        "image":"https://github.com/Sridhar0435/hyq.github.io/assets/img/hyqimages/second.jpg"
+        "image":"./assets/img/hyqimages/second.jpg"
     },
     {
         "id":"3",
         "description":"HYQ 80 cm (32 Inches) HD Smart LED TV",
-        "image":"https://github.com/Sridhar0435/hyq.github.io/assets/img/hyqimages/first.jpg"
+        "image":"./assets/img/hyqimages/first.jpg"
     },
     {
         "id":"4",
         "description":"HYQ 80 cm (32 Inches) HD Smart LED TV",
-        "image":"https://github.com/Sridhar0435/hyq.github.io/assets/img/hyqimages/second.jpg"
+        "image":"./assets/img/hyqimages/second.jpg"
     },
     {
         "id":"5",
         "description":"HYQ 80 cm (32 Inches) HD Smart LED TV",
-        "image":"https://github.com/Sridhar0435/hyq.github.io/assets/img/hyqimages/first.jpg"
+        "image":"./assets/img/hyqimages/first.jpg"
     }
 ]
