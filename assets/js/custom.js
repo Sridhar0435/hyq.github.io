@@ -1,6 +1,6 @@
 // const data = require("../../json/data.json");
 // console.log(data);
-fetch("https://sridhar0435.github.io/hyq.github.io/json/banner.json")
+fetch("json/banner.json")
   .then((response) => response.json())
   .then((data) => {
     data.map((val) => {
@@ -37,7 +37,7 @@ fetch("https://sridhar0435.github.io/hyq.github.io/json/banner.json")
   .catch((error) => console.log(error));
 
 //Best Seller
-fetch("https://sridhar0435.github.io/hyq.github.io/json/bestseller.json")
+fetch("/json/bestseller.json")
   .then((response) => response.json())
   .then((data) => {
     data.map((val) => {
