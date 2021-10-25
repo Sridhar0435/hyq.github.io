@@ -4,35 +4,35 @@
 	"id": 1,
 	"title1": "HYQ 80 cm (32 Inches) HD",
 	"title2": "Ready Smart LED TV HQ19SLM1301M32 (Black) (2020 Model)",
-    "image":"/assets/img/hyqimages/first.jpg",
+    "image":"https://github.com/Sridhar0435/hyq.github.io/tree/main/assets/img/hyqimages/first.jpg",
 	"completed": false
 },
 {
 	"id": 2,
 	"title1": "HYQ 109 cm (43 Inches) Full HD",
 	"title2": "Smart LED TV HQ19SLM1302M43 (Black) (2021 Model)",
-    "image":"/assets/img/hyqimages/second.jpg",
+    "image":"https://github.com/Sridhar0435/hyq.github.io/tree/main/assets/img/hyqimages/second.jpg",
 	"completed": false
 },
 {
 	"id": 3,
 	"title1": "HYQ 109 cm (43 Inches) Full HD",
 	"title2": "Smart LED TV HQ19SLM1302M43 (Black) (2021 Model)",
-    "image":"/assets/img/hyqimages/second.jpg",
+    "image":"https://github.com/Sridhar0435/hyq.github.io/tree/main/assets/img/hyqimages/first.jpg",
 	"completed": false
 },
 {
 	"id": 4,
 	"title1": "HYQ 109 cm (43 Inches) Full HD",
 	"title2": "Smart LED TV HQ19SLM1302M43 (Black) (2021 Model)",
-    "image":"/assets/img/hyqimages/second.jpg",
+    "image":"https://github.com/Sridhar0435/hyq.github.io/tree/main/assets/img/hyqimages/second.jpg",
 	"completed": false
 },
 {
 	"id": 5,
 	"title1": "HYQ 109 cm (43 Inches) Full HD",
 	"title2": "Smart LED TV HQ19SLM1302M43 (Black) (2021 Model)",
-    "image":"/assets/img/hyqimages/second.jpg",
+    "image":"https://github.com/Sridhar0435/hyq.github.io/tree/main/assets/img/hyqimages/first.jpg",
 	"completed": false
 }
 ]
