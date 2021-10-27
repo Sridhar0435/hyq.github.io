@@ -37,11 +37,7 @@ fetch("json/banner.json")
   .catch((error) => console.log(error));
 
 //Best Seller
-<<<<<<< Updated upstream
-fetch("/json/bestseller.json")
-=======
 fetch("json/bestseller.json")
->>>>>>> Stashed changes
   .then((response) => response.json())
   .then((data) => {
     data.map((val) => {
