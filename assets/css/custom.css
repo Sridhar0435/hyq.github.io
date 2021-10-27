@@ -16,9 +16,28 @@
 .buybtn{
     font-weight: 600;
 }
-
+.about_us_page-section{
+    padding-bottom: 0!important;
+}
+.post-thumb{
+    text-align: center;
+}
+.navbar_custom{
+    position: sticky;
+    top: 0;
+}
+.bestsellerclass{
+    cursor: pointer;
+}
+.about_us_image{
+    width:100%
+}
 @media screen and (max-width: 768px){
     .swiper-button-next, .swiper-button-prev{
         display: none !important;
     }
+    .about_us_image{
+        width:100%
+    }
 }
+

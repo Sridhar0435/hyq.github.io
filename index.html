@@ -11,7 +11,10 @@
 
   <title>HYQ - SEO Agency Template</title>
   <!-- Link Swiper's CSS -->
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="./assets/css/maicons.css">
 
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
@@ -26,26 +29,11 @@
       height: 100%;
     }
 
-    /* 
     .swiper-slide {
       text-align: center;
       font-size: 18px;
       background: #fff;
-
-      /* Center slide text vertically */
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center; 
-    }*/
+    }
 
     */ .swiper-slide img {
       display: block;
@@ -62,9 +50,9 @@
   <div class="back-to-top"></div>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky navbar_custom" data-offset="500">
       <div class="container">
-        <a href="#" class="navbar-brand"><span class="text-primary">HYQ</span></a>
+        <a href="/" class="navbar-brand"><span class="text-primary">HYQ</span></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -72,21 +60,21 @@
         </button>
 
         <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto ul_mobile">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link mobile" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link mobile" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
+              <a class="nav-link mobile" href="service.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
+              <a class="nav-link mobile" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link mobile" href="contact.html">Contact</a>
             </li>
 
           </ul>
@@ -100,34 +88,8 @@
       <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper" id="silderbanner">
-          <!-- <div class="swiper-slide">
-            <div class="page-banner home-banner">
-              <div class="row align-items-center flex-wrap-reverse h-100">
-                <div class="col-md-6 py-5 wow fadeInLeft">
-                  <h3 class="mb-4">HYQ 80cm (32 Inches) HD</h3>
-                  <p class="text-lg text-grey mb-5">Ready Smart LED TV HQ19SLM1301M32 (Black) (2020 Model)
-                  </p>
-                  <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span
-                        class="mai-play"></span>
-                    </div></a>
-                </div>
-                <div class="col-md-6 py-5 wow zoomIn">
-                  <div class="img-fluid text-center banner_image">
-                    <img src="../assets/img/hyqimages/first.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-              <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
-            </div>
-          </div> -->
-          <!-- <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div> -->
+          <!-- Append -->
+
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -139,21 +101,14 @@
   </header>
 
   <div class="page-section">
-    <h2 style="text-align:center;">BEST SELLER</h2>
+    <h2 style="text-align:center;">Most visited</h2>
+    <div class="divider mx-auto"></div>
     <div class="container">
-      <div class="row" id="bestseller">
-        <!-- <div class="col-lg-4">
-          <div class="card-service wow fadeInUp">
-            <div class="header">
-              <img src="../assets/img/services/service-1.svg" alt="">
-            </div>
-            <div class="body">
-              <h5 class="text-secondary">SEO Consultancy</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
-        </div> -->
+      <div class="row slider" id="bestseller">
+        <!-- Append -->
+
+        <!-- Swiper -->
+
       </div>
     </div> <!-- .container -->
   </div> <!-- .page-section -->
@@ -163,12 +118,18 @@
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <span class="subhead">About us</span>
-          <h2 class="title-section">The number #1 SEO Service Company</h2>
+          <h2 class="title-section">We provide the best servies</h2>
           <div class="divider"></div>
 
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua.</p>
-          <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+          <p>“SLM Enterprises' is a <b>Sole Proprietorship</b> Firm based entity, headquartered at <b>Hyderabad,
+              Telangana</b> with well-equipped facilities of manpower and machineries. Since <b>2013</b>, it is ardently
+            engrossed in the occupation of Manufacturer and offering a flawless range of <b>HYQ 43 Inches 4K UHD LED
+              Smart TV, HYQ 50 Inch Ultra HD 4K Smart LED TV and many more</b>.</p>
+
+          <p>The concentration of our firm is on developing an enhanced tomorrow and that’s why it is dedicated towards
+            excellence and always tries to do pioneering implantations to become a future corporation. We always try to
+            improve and evolve our skills by conducting intervallic seminars for the upcoming and most upgraded
+            techniques.</p>
           <a href="about.html" class="btn btn-primary mt-3">Read More</a>
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight">
@@ -184,7 +145,7 @@
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="subhead">Our services</div>
-        <h2 class="title-section">How SEO Team Can Help</h2>
+        <h2 class="title-section">How HYQ Team Can Help</h2>
         <div class="divider mx-auto"></div>
       </div>
 
@@ -194,8 +155,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Nature of Business</h5>
+            <p>Ecommerce Shop / Online Business</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -203,8 +164,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Total Number of Employees</h5>
+            <p>Upto 10 People</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -212,8 +173,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Year of Establishment</h5>
+            <p>2013</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -221,8 +182,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Legal Status of Firm</h5>
+            <p>Individual - Proprietor</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -230,8 +191,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>Annual Turnover</h5>
+            <p>Upto Rs. 50 Lakh</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -239,26 +200,8 @@
             <div class="header mb-3">
               <span class="mai-business"></span>
             </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-          <div class="features">
-            <div class="header mb-3">
-              <span class="mai-business"></span>
-            </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
-          <div class="features">
-            <div class="header mb-3">
-              <span class="mai-business"></span>
-            </div>
-            <h5>OnSite SEO</h5>
-            <p>We analyse your website's structure, internal architecture & other key</p>
+            <h5>GST Number</h5>
+            <p>36DVMPS0223R1ZW</p>
           </div>
         </div>
       </div>
@@ -266,102 +209,8 @@
     </div> <!-- .container -->
   </div> <!-- .page-section -->
 
-  <div class="page-section banner-seo-check">
-    <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
-      <div class="container text-center">
-        <div class="row justify-content-center wow fadeInUp">
-          <div class="col-lg-8">
-            <h2 class="mb-4">Check your Website SEO</h2>
-            <form action="#">
-              <input type="text" class="form-control" placeholder="E.g google.com">
-              <button type="submit" class="btn btn-success">Check Now</button>
-            </form>
-          </div>
-        </div>
-      </div> <!-- .container -->
-    </div> <!-- .wrap -->
-  </div> <!-- .page-section -->
 
-  <div class="page-section">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Pricing Plan</div>
-        <h2 class="title-section">Choose plan the right for you</h2>
-        <div class="divider mx-auto"></div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing">
-            <div class="header">
-              <div class="pricing-type">Basic</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>39<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing marked">
-            <div class="header">
-              <div class="pricing-type">Standar</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>59<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow zoomIn">
-          <div class="card-pricing">
-            <div class="header">
-              <div class="pricing-type">Professional</div>
-              <div class="price">
-                <span class="dollar">$</span>
-                <h1>99<span class="suffix">.99</span></h1>
-              </div>
-              <h5>Per Month</h5>
-            </div>
-            <div class="body">
-              <p>25 Analytics <span class="suffix">Campaign</span></p>
-              <p>1,300 Change <span class="suffix">Keywords</span></p>
-              <p>Social Media <span class="suffix">Reviews</span></p>
-              <p>1 Free <span class="suffix">Optimization</span></p>
-              <p>24/7 <span class="suffix">Support</span></p>
-            </div>
-            <div class="footer">
-              <a href="#" class="btn btn-pricing btn-block">Subscribe</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div> <!-- .container -->
-  </div> <!-- .page-section -->
 
   <!-- Banner info -->
   <div class="page-section banner-info">
@@ -369,19 +218,20 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
-            <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
+            <h2 class="title-section">LED Smart TV </h2>
             <div class="divider"></div>
-            <p>We're an experienced and talented team of passionate consultants who breathe with search engine
-              marketing.</p>
+            <p>We're an experienced and talented team of passionate consultants, where are a leading Ecommerce Shop /
+              Online Business of mi led tv from Hyderabad, India</p>
 
             <ul class="theme-list theme-list-light text-white">
               <li>
-                <div class="h5">SEO Content Strategy</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                <div class="h5">Washing Machine</div>
+                <p>Leading Ecommerce Shop / Online Business of HYQ WASHING MACHINE FULLY AUTOMATIC 8KG from Hyderabad.
+                </p>
               </li>
               <li>
-                <div class="h5">B2B SEO</div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                <div class="h5">LED TV</div>
+                <p>We are a leading Ecommerce Shop / Online Business of mi led tv from Hyderabad, India</p>
               </li>
             </ul>
           </div>
@@ -399,57 +249,27 @@
   <div class="page-section">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="subhead">Our Blog</div>
-        <h2 class="title-section">Read Latest News</h2>
+        <!-- <div class="subhead">Our Blog</div> -->
+        <h2 class="title-section">Certification of Trust</h2>
         <div class="divider mx-auto"></div>
       </div>
 
       <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow fadeInUp">
+        <div class="offset-md-3 col-lg-6 py-3 wow fadeInUp">
           <div class="card-blog">
             <div class="header">
               <div class="post-thumb">
-                <img src="../assets/img/blog/blog-1.jpg" alt="">
+                <img src="hyqimages/trust_100.png" alt="">
               </div>
             </div>
             <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+              <h5 class="post-title"><a href="https://trustseal.indiamart.com/members/slm-enterprises-telangana">Trusted
+                  member of IndiaMART</a></h5>
+              <div class="post-date">Issued on <a href="#">29 Sep 2020</a></div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-2.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-3.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 mt-4 text-center wow fadeInUp">
-          <a href="blog.html" class="btn btn-primary">View More</a>
-        </div>
       </div>
     </div>
   </div>
@@ -457,10 +277,9 @@
   <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-lg-3 py-3">
-          <h3>SEOGram</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto
-            eligendi iure.</p>
+        <div class="col-lg-4 py-3">
+          <h3>HYQ</h3>
+          <p>Better than best quality and clarity.</p>
 
           <div class="social-media-button">
             <a href="#"><span class="mai-logo-facebook-f"></span></a>
@@ -470,40 +289,32 @@
             <a href="#"><span class="mai-logo-youtube"></span></a>
           </div>
         </div>
-        <div class="col-lg-3 py-3">
+        <div class="col-lg-4 py-3">
           <h5>Company</h5>
           <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="#">Advertise</a></li>
             <li><a href="#">Terms of Service</a></li>
             <li><a href="#">Help & Support</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 py-3">
+        <div class="col-lg-4 py-3">
           <h5>Contact Us</h5>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">seogram@temporary.com</a>
+          <p>SLM Enterprises</p>
+          <p>1/9/471/6, Plot No. 6, Lalitha Nagar, Near Community Hall, Adikmet, Hyderabad-500040, Telangana, India</p>
+          <a href="#" class="footer-link">+91 8885556551</a>
+          <a href="#" class="footer-link">slmenterprises@gmail.com</a>
         </div>
-        <div class="col-lg-3 py-3">
-          <h5>Newsletter</h5>
-          <p>Get updates, news or events on your mail.</p>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your email..">
-            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-          </form>
-        </div>
+
       </div>
 
-      <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a
-          href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+      <p class="text-center" id="copyright">Copyright &copy; 2021. Design and develop by <a href="#"
+          target="_blank">Sridhar Achini</a></p>
     </div>
   </footer>
-
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
-
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
 
   <script src="./assets/js/google-maps.js"></script>
 
@@ -514,6 +325,7 @@
 
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
@@ -533,6 +345,34 @@
       },
     });
   </script>
+  <script>
+    $('.slider').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+
 </body>
 
 </html>
